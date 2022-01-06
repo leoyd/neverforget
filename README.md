@@ -65,10 +65,6 @@ That's why I had the idea to create a simple add-on, which doesn't require any l
 
 Simple and efficient, you have to try it to judge.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!--### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -103,21 +99,29 @@ Unfortunately you can't use this addon if you d'ont have ESO installed in your c
    git clone https://github.com/your_username_/Project-Name.git
    ```
 2. Copy the folder NeverForget to your addon folder :
+ 
+   PC:
    ```sh
-   Documents\Elder Scrolls Online\live\AddOns
+   C:\Users\< username >\Documents\Elder Scrolls Online\live\AddOns\
+   ```
+   Mac:
+   ```sh
+   ~/Documents/Elder Scrolls Online/live/AddOns/
    ```
 3. Enjoy !
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+the functioning of the addon is simple:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+if you don't have an active buff on your character this logo will appeared to your screen :
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+ <img src="https://i.ibb.co/p4999Bg/ttit.png" width="100" height="100">
 
+that mean you need to take a piece of your lovely Smoked Bear Haunch !🍗
 
+You can move the icon by unlocking the mouse in-game and click and drag the icon where ever you want 
 
 <!-- ROADMAP -->
 <!--## Roadmap
@@ -170,7 +174,6 @@ Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.c
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 -->
 
