@@ -96,7 +96,7 @@ Unfortunately you can't use this addon if you d'ont have ESO installed in your c
 
 1. Clone the repo or download it
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/leoyd/neverforget.git
    ```
 2. Copy the folder NeverForget to your addon folder :
  
