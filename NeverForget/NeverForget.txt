@@ -1,0 +1,6 @@
+## Title: NeverForget
+## APIVersion: 100025
+## SavedVariables: NeverForgetSavedVariables
+
+NeverForget.lua
+NeverForget.xml

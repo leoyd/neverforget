@@ -1,0 +1,24 @@
+<GuiXml>
+  <Controls>
+    <TopLevelControl name="NeverForgetIndicator" mouseEnabled="true" movable="true" clampedToScreen="true">
+      <Dimensions x="200" y="25" />
+      <Anchor point="BOTTOM" relativeTo="GuiRoot" relativePoint="CENTER" offsetY="-20" />
+ 
+      <OnMoveStop>
+        NeverForget.OnIndicatorMoveStop()
+      </OnMoveStop>
+ 
+      <Controls>
+	  <Texture name="$(parent)TopDivider" textureFile="esoui\art\icons\housing_alt_inc_cookingcauldron001.dds" tier="HIGH">
+					<Dimensions x="100" y="100"/>
+					<Anchor point="TOP" relativeTo="$(parent)" offsetY="38" />
+				</Texture>
+        <Label name="$(parent)Label" width="200" height="25" font="ZoFontWinH1" inheritAlpha="true" color="FF0000"
+            wrapMode="TRUNCATE" verticalAlignment="TOP" horizontalAlignment="CENTER" text="Time to eat!">
+          <Anchor point="TOP" relativeTo="$(parent)" relativePoint="TOP" />
+        </Label>
+		       
+      </Controls>
+    </TopLevelControl>
+  </Controls>
+</GuiXml>
